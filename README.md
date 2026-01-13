@@ -1,18 +1,11 @@
-# Syrupdesu Mos
+# Syrupdesu Homebrew Tap
 
-## How do I install these formulae?
+这是 **Syrupdesu** 的个人 Homebrew Tap 仓库，包含了 Kazumi 等应用的安装配方！
 
-`brew install syrupdesu/mos/<formula>`
+## 如何安装这些软件？
 
-Or `brew tap syrupdesu/mos` and then `brew install <formula>`.
+### 1. 添加此 Tap
+在终端执行以下命令，将仓库添加到你的 Homebrew 列表中：
 
-Or, in a `brew bundle` `Brewfile`:
-
-```ruby
-tap "syrupdesu/mos"
-brew "<formula>"
-```
-
-## Documentation
-
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```bash
+brew tap syrupdesu/tap
