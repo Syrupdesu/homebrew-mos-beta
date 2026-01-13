@@ -3,8 +3,9 @@ cask "kazumi" do
   sha256 "65e74fbf144a6363685ec6a7510c584182f31ae23c07a1f2352a36e826a29bc2"
 
   url "https://github.com/Predidit/Kazumi/releases/download/#{version}/Kazumi_macos_#{version}.dmg"
+    verified: "github.com/Predidit/Kazumi"
   name "Kazumi"
-  desc "A custom-rule-based anime scraping and online viewing application, built with Flutter"
+  desc "rule-based anime scraping and online viewing application"
   homepage "https://kazumi.app/"
 
   # Documentation: https://docs.brew.sh/Brew-Livecheck
