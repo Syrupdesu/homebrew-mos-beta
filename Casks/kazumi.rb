@@ -8,7 +8,6 @@ cask "kazumi" do
   desc "Rule-based anime scraping and online viewing application"
   homepage "https://kazumi.app/"
 
-  # Documentation: https://docs.brew.sh/Brew-Livecheck
   livecheck do
     url :url
     strategy :github_latest
